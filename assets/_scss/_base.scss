@@ -7,10 +7,16 @@
 
 html {
   box-sizing: border-box;
+  font-size: $html-font-size;
+  line-height: $html-line-height;
   -webkit-tap-highlight-color: transparent;
 }
 
 body {
+  background: $body-bg;
+  color: $body-font-color;
+  font-family: $body-font-family;
+  font-size: $font-size;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
 }

@@ -1,14 +1,46 @@
 // Variables
 //
+$version: "3.0.0";
 
-// Colors
-$color-white: #ffffff;
-$color-black: #000000;
+// Base colors
+$white-color: #ffffff !default;
+$black-color: #000000 !default;
+
+// Core colors
+$primary-color: #972f47 !default;
+$primary-color-dark: darken($primary-color, 3%) !default;
+$primary-color-light: lighten($primary-color, 3%) !default;
+$secondary-color: #ffddd0 !default;
+$secondary-color-dark: darken($secondary-color, 3%) !default;
+$secundary-color-light: lighten($secondary-color, 3%) !default;
+
+// Gray colors
+$dark-color: #454f5d !default;
+$light-color: #f2f2f2 !default;
+
+// Other colors
+$chocolate-color: #3b1b1d !default;
+$dust-pink-color: #e18885 !default;
+$body-bg: $primary-color !default;
+$body-font-color: $secondary-color !default;
 
 // Fonts
-$font-primary: 'Titillium Web', sans-serif;
-$font-secundary: 'Monserrat', sans-serif;
-$font-paragraph: 'Roboto Slab', sans-serif;
+$fallback-font-family: 'Roboto', 'Helvetica Neue', sans-serif !default;
+$base-font-family: 'Titillium Web', $fallback-font-family !default;
+$secondary-font-family: 'Monserrat', $fallback-font-family !default;
+$paragraph-font-family: 'Roboto Slab', $fallback-font-family !default;
+$body-font-family: $paragraph-font-family, $fallback-font-family !default;
 
 // CSS Layout config
-$grid-gap-px: 15px;
+$grid-gap-px: 15px !default;
+
+// Breakpoints
+$lg-breakpoint: 992px !default;
+$md-breakpoint: 768px !default;
+$sm-breakpoint: 576px !default;
+
+// Font sizes
+$html-font-size: 18px !default;
+$html-line-height: 1.5 !default;
+$line-height: 1rem !default;
+$font-size: 14px !default;
