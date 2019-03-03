@@ -1,0 +1,83 @@
+// Skeleton Home
+//
+
+// Position Hero
+.hero__position {
+  padding: 0 0 20px 0;
+
+  // Layout config
+  .grid-container {
+    grid-template-columns: 5fr 8fr;
+  }
+
+  .user__image {
+    position: relative;
+    .profile__avatar {
+      position: absolute;
+      bottom: -100px;
+    }
+  }
+}
+
+// About section
+.section__about {
+  padding: 25px 0;
+  // Layout config
+  .grid-container {
+    grid-template-columns: 5fr 8fr;
+  }
+
+  .about__info {
+    margin-top: 70px;
+  }
+
+  .collaborate {
+    &:before {
+      content: '';
+      display: block;
+      margin-bottom: 20px;
+      width: 30px;
+      height: 2px;
+    }
+    dd {
+      margin: 0.4rem 0 0.8rem;
+    }
+  }
+}
+
+// Dribbble section
+.section__dribbble {
+  margin-bottom: 50px;
+  // Layout config
+  .grid-container {
+    grid-template-areas: 
+      "card-1 card-1 card-1 card-2"
+      "card-1 card-1 card-1 card-3"
+      "card-4 card-4 card-5 card-5";
+  }
+
+  // Creating areas for card images
+  @for $i from 1 through 5 {
+    .card-#{$i} {
+      grid-area: card-#{$i};
+    }
+  }
+
+  // Large cards
+  .card-lg {
+    min-height: 450px;
+  }
+
+  // Medium cards
+  .card-md {
+    min-height: 250px;
+  }
+}
+
+// Hire section
+.section__hire {
+  padding: 25px 0;
+  .email__info {
+    margin-bottom: 40px;
+  }
+}
