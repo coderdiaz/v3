@@ -1,0 +1,10 @@
+// Skin Footer
+//
+
+.footer {
+  background: $primary-color;
+  .footer__copyright {
+    text-align: right;
+    color: $secondary-color;
+  }
+}
