@@ -7,7 +7,7 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
 // Core colors
-$primary-color: #972f47 !default;
+$primary-color: #6F1B33 !default;
 $primary-color-dark: darken($primary-color, 3%) !default;
 $primary-color-light: lighten($primary-color, 3%) !default;
 $secondary-color: #ffddd0 !default;
@@ -21,8 +21,12 @@ $light-color: #f2f2f2 !default;
 // Other colors
 $chocolate-color: #3b1b1d !default;
 $dust-pink-color: #e18885 !default;
-$body-bg: $primary-color !default;
-$body-font-color: $secondary-color !default;
+$dark-red-color: #972f47 !default;
+$claret-color: #86213E !default;
+$copperfield-color: #DA8C6F !default;
+$mandys-pink-color: #F5C4B2 !default;
+$body-bg: $secondary-color !default;
+$body-font-color: $chocolate-color !default;
 
 // Fonts
 $fallback-font-family: 'Roboto', 'Helvetica Neue', sans-serif !default;
