@@ -11,5 +11,19 @@
 @import "normalize";
 @import "base";
 
+// Header
+@import "header/skeleton";
+@import "header/skin";
+
+// Home
+@import "home/skeleton";
+@import "home/skin";
+
+// Footer
+@import "footer/skeleton";
+@import "footer/skin";
+
 // Utilities
 @import "utilities/grid";
+@import "utilities/lists";
+@import "utilities/buttons";
