@@ -1,0 +1,31 @@
+// Skin header
+//
+
+.header {
+  background: $primary-color;
+
+  // Menu
+  .header__menu {
+    .menu__burger {
+      font-size: 20px;
+      color: $white-color;
+      &:hover {
+        color: darken($white-color, 5%);
+      }
+    }
+  }
+
+  // Navigation List
+  .navigation__list {
+    .navigation__item {
+      .navigation__link {
+        color: $secondary-color;
+        text-transform: uppercase;
+        font-weight: bold;
+        &:hover {
+          color: darken($secondary-color, 5%);
+        }
+      }
+    }
+  }
+}
