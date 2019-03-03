@@ -23,12 +23,15 @@ body {
 
 a {
   outline: none;
+  color: $chocolate-color;
   text-decoration: none;
 
   &:focus,
   &:hover,
   &:active,
   &.active {
+    transition: .3s ease all;
+    color: lighten($chocolate-color, 3%);
     text-decoration: underline;
   }
 }
