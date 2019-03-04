@@ -14,7 +14,7 @@ baseurl: ""
 url: "https://coderdiaz.me"
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
-exclude: []
+exclude: ["node_modules"]
 
 # Alias to directories
 assets:
