@@ -86,6 +86,33 @@ export default {
 .card-4 { grid-area: card-4; }
 .card-5 { grid-area: card-5; }
 
+/* Overlay */
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+  position: absolute;
+  display: none;
+}
+.overlay.active {
+  display: block;
+}
+
+/* Styles for link */
+.link {
+  color: #ffffff;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  font-family: 'Titillium Web', 'Roboto', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 /* Medium devices to down */
 @media (max-width: 768px) {
   .card__image.card-sm {
@@ -104,32 +131,6 @@ export default {
   .card__image.card-sm {
     min-height: 120px;
   }
-}
-
-.overlay {
-  background: rgba(0, 0, 0, 0.8);
-  height: 100%;
-  width: 100%;
-  z-index: 9999;
-  position: absolute;
-  display: none;
-}
-
-.overlay.active {
-  display: block;
-}
-
-.link {
-  color: #ffffff;
-  left: 50%;
-  top: 50%;
-  position: absolute;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  font-size: 15px;
-  font-family: 'Titillium Web', 'Roboto', 'Helvetica Neue', sans-serif;
-  font-weight: 700;
-  text-decoration: none;
 }
 </style>
 
