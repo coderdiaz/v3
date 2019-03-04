@@ -93,10 +93,11 @@ export default {
   width: 100%;
   z-index: 9999;
   position: absolute;
-  display: none;
+  opacity: 0;
+  transition: all .3s ease;
 }
 .overlay.active {
-  display: block;
+  opacity: 1;
 }
 
 /* Styles for link */
