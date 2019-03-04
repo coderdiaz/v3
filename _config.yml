@@ -14,7 +14,18 @@ baseurl: ""
 url: "https://coderdiaz.me"
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
-exclude: ["node_modules"]
+exclude: [
+  Gemfile,
+  Gemfile.lock,
+  scss,
+  node_modules,
+  package-lock.json,
+  src,
+  package.json,
+  yarn.lock,
+  CNAME,
+  README.md
+]
 
 # Alias to directories
 assets:
