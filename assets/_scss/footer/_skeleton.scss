@@ -8,3 +8,21 @@
     grid-template-columns: 350px 1fr;
   }
 }
+
+// Medium devices
+@media(max-width: $md-breakpoint) {
+  .footer {
+    // Layout config
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+
+    .footer__brand {
+      text-align: center;
+    }
+
+    .footer__copyright {
+      text-align: center !important;
+    }
+  }
+}

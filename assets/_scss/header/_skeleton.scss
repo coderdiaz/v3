@@ -32,3 +32,20 @@
     }
   }
 }
+
+// Small Devices to down
+@media (max-width: $sm-breakpoint) {
+  .header {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+
+    .header__menu {
+      justify-content: center;
+    }
+
+    .navigation__list {
+      justify-content: center;
+    }
+  }
+}

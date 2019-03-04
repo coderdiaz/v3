@@ -73,3 +73,35 @@
     }
   }
 }
+
+// Medium devices
+@media(max-width: $md-breakpoint) {
+  .hero__position {
+    .title {
+      text-align: center;
+    }
+  }
+
+  .section__hire {
+    text-align: center;
+  }
+}
+
+// Small devices
+@media(max-width: $sm-breakpoint) {
+  .hero__position {
+    .title {
+      font-size: 35px;
+    }
+  }
+  
+  .section__about {
+    .about__info {
+      text-align: center;
+    }
+
+    .about__description {
+      font-size: 20px;
+    }
+  }
+}
