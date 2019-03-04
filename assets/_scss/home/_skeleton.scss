@@ -48,30 +48,6 @@
 // Dribbble section
 .section__dribbble {
   margin-bottom: 50px;
-  // Layout config
-  .grid-container {
-    grid-template-areas: 
-      "card-1 card-1 card-1 card-2"
-      "card-1 card-1 card-1 card-3"
-      "card-4 card-4 card-5 card-5";
-  }
-
-  // Creating areas for card images
-  @for $i from 1 through 5 {
-    .card-#{$i} {
-      grid-area: card-#{$i};
-    }
-  }
-
-  // Large cards
-  .card-lg {
-    min-height: 450px;
-  }
-
-  // Medium cards
-  .card-md {
-    min-height: 250px;
-  }
 }
 
 // Hire section
@@ -101,20 +77,6 @@
   .section__about {
     .about__info {
       margin: 15px;
-    }
-  }
-
-  .section__dribbble {
-    .grid-container {
-      grid-template-areas: 
-        "card-1 card-1 card-1 card-1"
-        "card-1 card-1 card-1 card-1"
-        "card-2 card-2 card-3 card-3"
-        "card-4 card-4 card-5 card-5" ;
-    }
-    
-    .card-sm {
-      min-height: 200px;
     }
   }
 }

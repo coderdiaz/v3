@@ -33,5 +33,6 @@
 @media(min-width: $lg-breakpoint) {
   .container {
     max-width: $lg-breakpoint;
+    padding: 0;
   }
 }
