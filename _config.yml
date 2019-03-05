@@ -41,6 +41,13 @@ exclude: [
   README.md
 ]
 
+# Plugins
+plugins:
+  - jekyll-purgecss
+
+# Purge CSS
+css_dir: "assets/css"
+
 # Social Networks
 social:
   youtube: https://www.youtube.com/channel/UCIZS4F2zlOd1rnx6g7Jye1w
