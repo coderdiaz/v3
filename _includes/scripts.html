@@ -4,3 +4,8 @@
 <script src="{{ 'portfolio.min.js' | prepend: site.assets.js }}"></script>
 <script src="{{ 'portfolio.1.min.js' | prepend: site.assets.js }}"></script>
 <script src="{{ 'portfolio.2.min.js' | prepend: site.assets.js }}"></script>
+<script src="{{ 'portfolio.3.min.js' | prepend: site.assets.js }}"></script>
+<script>
+    // Logic for burger-menu modal
+    var show=false;var showToggle=function(){document.querySelector('portfolio-full-modal').setAttribute('show',show=!show);};document.getElementById('burger').addEventListener('click',showToggle);document.querySelector('portfolio-full-modal').addEventListener('close',showToggle);
+</script>
