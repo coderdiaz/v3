@@ -1,7 +1,19 @@
 # Author information
-author: Javier Diaz Chamorro
+author: Javier Diaz
 position: Fullstack JavaScript Engineer & teacher
-workat: Cultura Colectiva
+work:
+  at: Cultura Colectiva
+  url: https://culturacolectiva.com
+livesin: Mexico City 
+editor:
+  name: Visual Studio Code
+  url: https://code.visualstudio.com/
+yearsxp: 5 years
+username: coderdiaz
+
+# Dribbble
+dribble:
+  token: c45be162c0dae8c4c3ea96a4ee734d910149c29b3f3c16abe8ed3595dc118e54
 
 # Seo
 title: Javier Diaz
@@ -23,6 +35,8 @@ exclude: [
   src,
   package.json,
   yarn.lock,
+  yarn-error.log,
+  assets/js/demo.html,
   CNAME,
   README.md
 ]
@@ -33,6 +47,7 @@ social:
   twitter: https://twitter.com/coderdiaz
   github: https://github.com/coderdiaz
   dribbble: https://dribbble.com/coderdiaz
+  vsco: https://vsco.co/coderdiaz
 
 # Alias to directories
 assets:
