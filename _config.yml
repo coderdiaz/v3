@@ -27,6 +27,13 @@ exclude: [
   README.md
 ]
 
+# Social Networks
+social:
+  youtube: https://www.youtube.com/channel/UCIZS4F2zlOd1rnx6g7Jye1w
+  twitter: https://twitter.com/coderdiaz
+  github: https://github.com/coderdiaz
+  dribbble: https://dribbble.com/coderdiaz
+
 # Alias to directories
 assets:
   css: assets/css/
