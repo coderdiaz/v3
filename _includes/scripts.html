@@ -1,5 +1,9 @@
 {% include ga.html %}
-<script src="//unpkg.com/vue"></script>
+{% if jekyll.environment == "production" %}
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+{% else %}
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+{% endif %}
 <script src="//unpkg.com/axios/dist/axios.min.js"></script>
 <script src="{{ 'portfolio.min.js' | prepend: site.assets.js }}"></script>
 <script src="{{ 'portfolio.1.min.js' | prepend: site.assets.js }}"></script>
