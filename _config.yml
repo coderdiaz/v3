@@ -10,7 +10,7 @@ description: Online Portfolio of Fullstack JavaScript Engineer & teacher, Javier
 image: ""
 
 # Jekyll configuration
-baseurl: ""
+baseurl: "/"
 url: "https://coderdiaz.me"
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
