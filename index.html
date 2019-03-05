@@ -10,7 +10,7 @@ language: "EN"
         </div>
         <div class="user__info">
             <h1 class="title">
-                I'm Javier Diaz,<br><span class="position">{{ site.position }}</span><br>who lives in<br>Mexico City.
+                I'm {{ site.author }},<br><span class="position">{{ site.position }}</span><br>who lives in<br>{{ site.livesin }}.
             </h1>
         </div>
     </div>
@@ -25,26 +25,26 @@ language: "EN"
                 </dd>
                 <dt>Currently working at;</dt>
                 <dd>
-                <a href="https://culturacolectiva.com">Cultura Colectiva</a>
+                <a href="{{ site.work.url }}">{{ site.work.at }}</a>
                 </dd>
                 <dt>My favorite editor;</dt>
                 <dd>
-                <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+                <a href="{{ site.editor.url }}">{{ site.editor.name }}</a>
                 </dd>
             </dl>
         </div>
         <div class="about__description">
             <p>I love everything that has to do with web design and development, UX design and I feel a true devotion for minimal web design.</p>
-            <p>I have 5 years of experience working as a freelance and working on an company, but I’m ready for visiting other cities and work for any development studio. I love working with people, especially if they have the same passion I have for what they do.</p>
-            <p>I’m <a href="https://twitter.com/coderdiaz">tweeting</a>, taking <a href="https://vsco.co/coderdiaz">photos</a> and pushing my <a href="https://github.com/coderdiaz">codes</a> for you.</p>
+            <p>I have {{ site.yearsxp }} of experience working as a freelance and working on an company, but I’m ready for visiting other cities and work for any development studio. I love working with people, especially if they have the same passion I have for what they do.</p>
+            <p>I’m <a href="{{ site.social.twitter }}">tweeting</a>, taking <a href="{{ site.social.vsco }}">photos</a> and pushing my <a href="{{ site.social.github }}">codes</a> for you.</p>
         </div>
     </div>
 </section>
 <section class="section__dribbble">
     <div class="container">
         <portfolio-dribbble-shots
-            user="coderdiaz"
-            token="c45be162c0dae8c4c3ea96a4ee734d910149c29b3f3c16abe8ed3595dc118e54">
+            user="{{ site.username }}"
+            token="{{ site.dribbble.token }}">
         </portfolio-dribbble-shots>
     </div>
 </section>
