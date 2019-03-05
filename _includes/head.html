@@ -27,7 +27,7 @@
     <!-- End Webfont.js script -->
     <!-- Callback-script for add CSS after to load page -->
     <script>
-        var cb=function(){["https://use.fontawesome.com/releases/v5.7.2/css/all.css"].forEach(function(e){var s=document.createElement("link");s.rel="stylesheet",s.href=e;var n=document.getElementsByTagName("head")[0];n.parentNode.insertBefore(s,n)})};window.addEventListener("load",cb);
+        var cb=function(){["https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css", "https://use.fontawesome.com/releases/v5.7.2/css/solid.css", "https://use.fontawesome.com/releases/v5.7.2/css/brands.css"].forEach(function(e){var s=document.createElement("link");s.crossOrigin="anonymous";s.rel="stylesheet",s.href=e;var n=document.getElementsByTagName("head")[0];n.parentNode.insertBefore(s,n)})};window.addEventListener("load",cb);
     </script>
     <!-- End callback-scripts -->
 </head>
