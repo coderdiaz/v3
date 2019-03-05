@@ -22,12 +22,16 @@
   .navigation__list {
     justify-items: flex-end;
     justify-content: flex-end;
+    align-items: center;
     .navigation__item {
       .navigation__link {
         padding: 0 10px;
+        &.nav__icon {
+          padding-left: 5px;
+        }
       }
       .navigation__btn {
-        margin-left: 10px;
+        margin: 0 10px;
       }
     }
   }

@@ -25,6 +25,10 @@
         &:hover {
           color: darken($secondary-color, 5%);
         }
+
+        &.nav__icon {
+          font-size: 24px;
+        }
       }
     }
   }
