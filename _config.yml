@@ -18,11 +18,11 @@ dribbble:
 # Seo
 title: Javier Diaz
 slogan: Fullstack JavaScript Engineer & teacher based on Mexico City
-description: Online Portfolio and Blog of Fullstack JavaScript Engineer & teacher, Javier Diaz.
+description: Online Portfolio and Blog of Fullstack JavaScript Engineer & teacher, Javier Diaz. Check my work and learn about tech in my personal blog.
 image: ""
 
 # Jekyll configuration
-baseurl: "/"
+baseurl: ""
 url: "https://coderdiaz.me"
 permalink: /:year/:month/:day/:title/
 markdown: kramdown
