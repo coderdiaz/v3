@@ -3,6 +3,9 @@
     <meta charset="utf-8">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta property="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="twitter:description" content="{{ site.description }}">
     <title>{{ site.title }} ― {{ site.slogan }}</title>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="stylesheet" href="{{ 'main.css' | prepend: site.assets.css }}">
@@ -27,7 +30,7 @@
     <!-- End Webfont.js script -->
     <!-- Callback-script for add CSS after to load page -->
     <script>
-        var cb=function(){["https://use.fontawesome.com/releases/v5.7.2/css/all.css"].forEach(function(e){var s=document.createElement("link");s.rel="stylesheet",s.href=e;var n=document.getElementsByTagName("head")[0];n.parentNode.insertBefore(s,n)})};window.addEventListener("load",cb);
+        var cb=function(){["https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css", "https://use.fontawesome.com/releases/v5.7.2/css/solid.css", "https://use.fontawesome.com/releases/v5.7.2/css/brands.css"].forEach(function(e){var s=document.createElement("link");s.crossOrigin="anonymous";s.rel="stylesheet",s.href=e;var n=document.getElementsByTagName("head")[0];n.parentNode.insertBefore(s,n)})};window.addEventListener("load",cb);
     </script>
     <!-- End callback-scripts -->
 </head>
