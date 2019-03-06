@@ -809,8 +809,6 @@ window.customElements.define('portfolio-dribbble-shots', vue_wc_wrapper(external
 
 window.customElements.define('portfolio-full-modal', vue_wc_wrapper(external_Vue_default.a, () => __webpack_require__.e(/* import() */ 2).then(__webpack_require__.bind(null, "28b9"))))
 
-window.customElements.define('portfolio-menu', vue_wc_wrapper(external_Vue_default.a, () => __webpack_require__.e(/* import() */ 3).then(__webpack_require__.bind(null, "2e31"))))
-
 /***/ }),
 
 /***/ "8bbf":
