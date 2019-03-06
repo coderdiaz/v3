@@ -42,6 +42,12 @@ exclude: [
   README.md
 ]
 
+# Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+syntax_highlighter: rouge
+syntax_highlighter_opts:
+  # Use existing pygments syntax highlighting css
+  css_class: 'highlight'
+
 # Social Networks
 social:
   youtube: https://www.youtube.com/channel/UCIZS4F2zlOd1rnx6g7Jye1w
@@ -52,11 +58,11 @@ social:
 
 # Alias to directories
 assets:
-  css: assets/css/
-  svg: assets/svg/
-  img: assets/img/
-  js: assets/js/
-  images: assets/images/
+  css: /assets/css/
+  svg: /assets/svg/
+  img: /assets/img/
+  js: /assets/js/
+  images: /assets/images/
 
 # SASS configuration
 sass:
