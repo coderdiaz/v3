@@ -1,0 +1,47 @@
+// Skin page
+// 
+
+.page__section {
+  background-color: $primary-color;
+  color: $mandys-pink-color;
+
+  .title {
+    &:after {
+      background: $mandys-pink-color;
+    }
+  }
+}
+
+.section__articles {
+  .single__article {
+    .article__content {
+      .article__title {
+        font-size: 22px;
+        font-weight: 700;
+        color: $primary-color;
+        font-family: $base-font-family;
+      }
+      .article__substract {
+        margin-top: 5px;
+        font-size: 16px;
+        p {
+          margin: 0;
+        }
+      }
+    }
+    .article__date {
+      font-size: 16px;
+      text-align: center;
+      font-weight: 700;
+      font-family: $base-font-family;
+      .date__day {
+        color: $primary-color;
+        font-size: 35px;
+      }
+      .date__month {
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+    } 
+  }
+}

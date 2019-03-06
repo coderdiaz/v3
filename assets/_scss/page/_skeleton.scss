@@ -1,0 +1,32 @@
+// Skeleton page
+// 
+
+.page__section {
+  padding-bottom: 25px;
+  .title {
+    margin: 0;
+    &:after {
+      content: '';
+      display: block;
+      margin-top: 10px;
+      width: 50px;
+      height: 2px;
+    }
+  }
+}
+
+.section__articles {
+  min-height: 250px;
+  padding: 25px 0 35px 0;
+
+  .single__article {
+    padding: 15px 0;
+    grid-template-columns: 70px 1fr;
+
+    .article__date {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
