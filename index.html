@@ -6,7 +6,10 @@ language: "EN"
 <section class="hero__position">
     <div class="container grid-container">
         <div class="user__image">
-            <img class="profile__avatar" width="350" src="{{ 'avatar.jpg' | prepend: site.assets.img }}">
+            <picture class="profile__avatar" width="350">
+                <source srcset="{{ 'avatar.webp' | prepend: site.assets.images }}" type="image/webp">
+                <img srcset="{{ 'avatar.jpg' | prepend: site.assets.images }}" alt="{{ site.author }}">
+            </picture>
         </div>
         <div class="user__info">
             <h1 class="title">
