@@ -1,0 +1,37 @@
+---
+layout: home
+permalink: /blog/
+language: "EN"
+---
+
+<section class="page__section">
+    <div class="container">
+        <h1 class="title">Latest articles</h1>
+    </div>
+</section>
+
+<section class="section__articles">
+    <div class="container">
+        <div class="featured__articles">
+           {% assign featuredArticles = site.posts | where: "featured", true %}
+           {% for article in featuredArticles limit: 3 %}
+           <!-- TODO: Create design for featured articles -->
+           {% endfor %} 
+        </div>
+        <div class="articles">
+            {% assign articles = site.posts | where: "featured", false %}
+            {% for article in articles %}
+            <div class="single__article grid-container">
+                <div class="article__date">
+                    <span class="date__day">{{ article.date | date: "%d" }}</span>
+                    <span class="date__month">{{ article.date | date: "%b" }}</span>
+                </div>
+                <div class="article__content">
+                    <a class="article__title" href="{{ article.url }}">{{ article.title }}</a>
+                    <div class="article__substract">{{ article.excerpt }}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
