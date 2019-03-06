@@ -37,6 +37,7 @@ exclude: [
   yarn.lock,
   yarn-error.log,
   assets/js/demo.html,
+  assets/img,
   CNAME,
   README.md
 ]
