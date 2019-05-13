@@ -6,7 +6,7 @@
   background: $primary-color;
 
   .title {
-    font-size: 60px;
+    font-size: 54px;
     line-height: 1.2;
     font-family: $secondary-font-family;
     color: $secondary-color;
@@ -48,12 +48,15 @@
   color: $mandys-pink-color;
   .section__title {
     font-size: 34px;
+    font-family: $secondary-font-family;
+    font-weight: 300;
   }
   .email__info {
     font-size: 20px;
     font-weight: 400;
     .email__title {
-      font-weight: 700;
+      font-weight: 300;
+      font-family: $secondary-font-family;
     }
     a {
       font-weight: 300;
