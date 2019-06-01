@@ -6,6 +6,9 @@
     "email": "hello@coderdiaz.me",
     "url": "https://coderdiaz.me"
   },
+  "scripts": {
+    "build:wc": "vue-cli-service build --target wc-async --name portfolio 'src/*.vue' --dest assets/js"
+  },
   "devDependencies": {
     "@vue/cli-service": "^3.8.0",
     "vue-template-compiler": "^2.6.10"
