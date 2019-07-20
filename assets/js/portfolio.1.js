@@ -36,14 +36,14 @@ exports.push([module.i, ".card__image[data-v-94ff99dc]{background-size:cover;bac
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/DribbbleShots.vue?vue&type=template&id=7ba04dcb&scoped=true&shadow
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0fbcbfb6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/DribbbleShots.vue?vue&type=template&id=7ba04dcb&scoped=true&shadow
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"dribbble-shots"},_vm._l((_vm.shots),function(shot,index){return _c('shot',{key:index,attrs:{"index":index,"shot":shot}})}),1)}
 var staticRenderFns = []
 
 
 // CONCATENATED MODULE: ./src/DribbbleShots.vue?vue&type=template&id=7ba04dcb&scoped=true&shadow
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d1b3d832-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Shot.vue?vue&type=template&id=94ff99dc&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0fbcbfb6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Shot.vue?vue&type=template&id=94ff99dc&scoped=true&
 var Shotvue_type_template_id_94ff99dc_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.classes,style:(_vm.style),on:{"mouseenter":function($event){$event.preventDefault();return _vm.toggle($event)},"mouseleave":function($event){$event.preventDefault();return _vm.toggle($event)}}},[(_vm.shot)?_c('div',{class:_vm.classesLink},[_c('a',{staticClass:"link",attrs:{"href":_vm.shot.html_url}},[_vm._v("Show in Dribbble")])]):_vm._e()])}
 var Shotvue_type_template_id_94ff99dc_scoped_true_staticRenderFns = []
 
