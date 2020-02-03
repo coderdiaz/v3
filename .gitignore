@@ -1,9 +1,0 @@
-node_modules
-.DS_Store
-_site
-.sass-cache
-.jekyll-metadata
-
-# Ignored demo.html created by Vue CLI Service Global
-demo.html
-yarn-error.log
